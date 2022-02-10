@@ -2,7 +2,7 @@
 
 metrics("Name of Column to Analyze") : Attains necessary information pertaining to passed in "Column"
 Example: asc = metrics("ASSIGNED_SUPPORT_COMPANY")  
-         asc -> Represents DataFrame returned by function, holds all necessary data pertaining to "ASSIGNED_SUPPORT_COMPANY"
+        asc -> Represents DataFrame returned by function, holds all necessary data pertaining to "ASSIGNED_SUPPORT_COMPANY"
 
 visualizeV(DataFrame, "Name of Column to Analyze", "Name of Metric", Boolean Value) : Creates visualization vertical bar graph of passed in metric and data
         DataFrame: DataFrame returned by the previous metrics() function
